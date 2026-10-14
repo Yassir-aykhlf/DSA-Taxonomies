@@ -1,51 +1,33 @@
 # DSA Pattern Taxonomy
 
-A pattern-organized index of ~600 LeetCode problems. Each file decomposes one pattern into sub-patterns
-and maps them to representative problems.
+A roadmap of **779 LeetCode problems**, grouped into **162 patterns** across **21 phases**.
 
-## How to use
+Follow the phases in order, or jump to a topic. Each file groups problems by technique and highlights related patterns.
 
-The tiers below are an ordered learning path. Inside a file, scan the sub-pattern list to find
-the technique a problem needs, then jump to similar problems.
+## Phases
 
-## Patterns
+| Phase | Core idea |
+|-------|-----------|
+| [Arrays & Two Pointers](Taxonomies/Arrays-and-Two-Pointers.md) | Array scans, pair matching, merging, and in-place rearrangement. |
+| [Hashing & Grouping](Taxonomies/Hashing-and-Grouping.md) | Frequency counts, canonical keys, mappings, and occurrence indices. |
+| [Prefix Sums](Taxonomies/Prefix-Sums.md) | Cumulative sums, XOR states, range queries, and difference arrays. |
+| [Sliding Window](Taxonomies/Sliding-Window.md) | Maintain a contiguous span to optimize or count valid subarrays. |
+| [Stack & Queue](Taxonomies/Stack-and-Queue.md) | Parsing, sequence processing, monotonic stacks, and window extrema. |
+| [Binary Search](Taxonomies/Binary-Search.md) | Find values or boundaries in ordered or monotonic search spaces. |
+| [Sorting](Taxonomies/Sorting.md) | Custom order, sorting algorithms, and preprocessing for queries. |
+| [Intervals & Sweep](Taxonomies/Intervals-and-Sweep.md) | Merge ranges, schedule events, and track overlap. |
+| [Greedy](Taxonomies/Greedy.md) | Justify local choices with invariants or exchange arguments. |
+| [Heap / Priority Queue](Taxonomies/Heap-Priority-Queue.md) | Top-K selection, k-way merging, streaming statistics, and priority choices. |
+| [Linked List](Taxonomies/Linked-List.md) | Pointer rewiring, reversal, fast/slow traversal, and structural changes. |
+| [Trees & BST](Taxonomies/Trees-and-BST.md) | Traversal, subtree aggregation, search order, construction, and rerooting. |
+| [Backtracking](Taxonomies/Backtracking.md) | Choose, recurse, undo, and prune invalid or equivalent branches. |
+| [Dynamic Programming](Taxonomies/Dynamic-Programming.md) | Reuse subproblem results through recurrences and stored states. |
+| [Grids & Graphs](Taxonomies/Grids-and-Graphs.md) | Matrix operations, connectivity, shortest paths, dependencies, and graph structure. |
+| [Trie](Taxonomies/Trie.md) | Shared prefixes for word lookup, dictionary search, and bitwise queries. |
+| [Design](Taxonomies/Design.md) | Combine data structures to meet API and performance requirements. |
+| [Strings](Taxonomies/Strings.md) | Parsing, conversion, arithmetic, construction, and pattern matching. |
+| [Math & Geometry](Taxonomies/Math-and-Geometry.md) | Number theory, counting, simulation, and geometric relationships. |
+| [Bit Manipulation](Taxonomies/Bit-Manipulation.md) | XOR identities, bit operations, and AND/OR state aggregation. |
+| [Advanced Structures](Taxonomies/Advanced-Structures.md) | Merge-sort counting, Fenwick trees, segment trees, and lazy updates. |
 
-### Tier 1 — Foundations
-| Pattern | Core idea |
-|---------|-----------|
-| [01. Two Pointers](Taxonomies/01.%20Two%20Pointers.md) | Two indices sweep a sequence to replace nested loops (O(n²) → O(n)). |
-| [02. Hash Table](Taxonomies/02.%20Hash%20Table.md) | O(1) average lookup/insert; the default answer to "have I seen this?". |
-| [03. Stack & Queue](Taxonomies/03.%20Stack%20and%20Queue.md) | LIFO/FIFO ordering; monotonic stacks, parsing, BFS frontiers. |
-| [04. Linked List](Taxonomies/04.%20Linked%20List.md) | Pointer relinking, dummy heads, fast/slow traversal. |
-| [05. Sorting](Taxonomies/05.%20Sorting.md) | Ordering as preprocessing; comparison vs non-comparison sorts. |
-
-### Tier 2 — Core algorithms
-| Pattern | Core idea |
-|---------|-----------|
-| [06. Traversal Algorithms](Taxonomies/06.%20Traversal%20Algorithms.md) | DFS/BFS over trees and graphs, topological order. |
-| [07. Binary Search](Taxonomies/07.%20Binary%20Search.md) | Halve a sorted/monotonic search space — including "search on the answer". |
-| [08. Heap / Priority Queue](Taxonomies/08.%20Heap%20Priority%20Queue.md) | Always-ready min/max; top-K, scheduling, k-way merge. |
-| [09. Prefix Sum](Taxonomies/09.%20Prefix%20Sum.md) | Precompute cumulative aggregates for O(1) range queries. |
-
-### Tier 3 — Specialized
-| Pattern | Core idea |
-|---------|-----------|
-| [10. Greedy Algorithms](Taxonomies/10.%20Greedy%20Algorithms.md) | Locally optimal choices that are provably globally optimal. |
-| [11. Backtracking](Taxonomies/11.%20Backtracking.md) | Systematic search with pruning over combinatorial spaces. |
-| [12. Dynamic Programming](Taxonomies/12.%20Dynamic%20Programming.md) | Overlapping subproblems + optimal substructure. |
-| [13. Divide & Conquer](Taxonomies/13.%20Divide%20and%20Conquer.md) | Split, solve recursively, combine. |
-
-### Tier 4 — Advanced
-| Pattern | Core idea |
-|---------|-----------|
-| [14. Trie](Taxonomies/14.%20Trie.md) | Prefix tree for string and word lookups. |
-| [15. Union Find](Taxonomies/15.%20Union%20Find.md) | Near-O(1) connectivity with path compression + union by rank. |
-| [16. Bit Manipulation](Taxonomies/16.%20Bit%20Manipulation.md) | Bitwise tricks, masks, XOR identities, bitmask DP. |
-| [17. Segment Tree & Fenwick Tree](Taxonomies/17.%20Segment%20Tree%20and%20Fenwick%20Tree.md) | Log-time range queries/updates on mutable arrays. |
-| [18. Combinatorics & Number Theory](Taxonomies/18.%20Combinatorics%20and%20Number%20Theory.md) | Counting, modular arithmetic, primes, gcd. |
-| [19. Design Patterns](Taxonomies/19.%20Design%20Pattern.md) | Building custom data structures to hit required complexities. |
-
----
-
-All 19 patterns live in [`Taxonomies/`](Taxonomies/). Contributions and
-corrections welcome.
+Contributions and corrections welcome.
