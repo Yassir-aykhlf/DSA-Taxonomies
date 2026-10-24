@@ -1,10 +1,10 @@
 # DSA Pattern Taxonomy
 
-A roadmap of **779 LeetCode problems**, grouped into **162 patterns** across **21 phases**.
+A roadmap of **779 LeetCode problems**, grouped into **162 patterns** across **21 Topics**.
 
-Follow the phases in order, or jump to a topic. Each file groups problems by technique and highlights related patterns.
+Each file groups problems by technique and highlights related patterns.
 
-## Phases
+## Topics
 
 | Phase | Core idea |
 |-------|-----------|
