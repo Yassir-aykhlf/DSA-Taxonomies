@@ -6,7 +6,7 @@ Each file groups problems by technique and highlights related patterns.
 
 ## Topics
 
-| Phase | Core idea |
+| Topic | Core idea |
 |-------|-----------|
 | [Arrays & Two Pointers](Taxonomies/Arrays-and-Two-Pointers.md) | Array scans, pair matching, merging, and in-place rearrangement. |
 | [Hashing & Grouping](Taxonomies/Hashing-and-Grouping.md) | Frequency counts, canonical keys, mappings, and occurrence indices. |
